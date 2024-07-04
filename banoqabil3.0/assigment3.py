@@ -27,7 +27,7 @@ if year % 4==0 and 100!=0:
 else:
     print(year, 'year is not leap year')
     
-#conversion of temprature
+#conversion of temperature
 
 temp=float(input('enter the Temperature: '))
 unit=input(" 'C' or 'F'  ")
@@ -36,9 +36,8 @@ F=(temp*9/5)+32
 if unit=='F':
     print('Temperature in Calsius is: ' ,C)
 else:
-    print('Temprature in Farhenheit is: ' ,F)
+    print('Temprature in Fahrenheit is: ' ,F)
       
-
 #program to determine Triangle
 
 side1=int(input('enter the side1 of triangle: '))
