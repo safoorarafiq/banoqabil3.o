@@ -1,4 +1,4 @@
-#factrial
+#factorial
 
 n=int(input('enter the number: '))    
 factorial=1
