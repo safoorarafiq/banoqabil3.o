@@ -1,6 +1,6 @@
 #list
 def sum_of_list(lst):
-    total = 1
+    total = 0
     for i in lst:
         total += i
     return total
